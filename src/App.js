@@ -1,5 +1,5 @@
 // import './App.css';
-import react, { Component } from 'react';
+import { Component } from 'react';
 import Toolbar from './components/toolbar/toolbar';
 import SideDrawer from './components/sideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
