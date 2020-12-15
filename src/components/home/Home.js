@@ -1,8 +1,10 @@
 import './Home.css'
 // import homeimage from "./img/home1.jpg"
+import Footer from '../footer/Footer';
 
 const Home = props => {
     return (
+        <div>
         <div className="container">
             <div className="box-container1">
                 <div id="box1">
@@ -38,6 +40,8 @@ const Home = props => {
                 </div>
                 </div>
             </div>
+        </div>
+        <Footer />
         </div>
     
     );

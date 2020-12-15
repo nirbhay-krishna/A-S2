@@ -1,9 +1,8 @@
 // import react from 'react';
 import './toolbar.css';
 import logo from './logo.png';
-// import './sideDrawer/toggleButton';
 import ToggleButton from '../sideDrawer/ToggleButton';
-// import about from '../about/About';
+import {NavLink} from "react-router-dom";
 
 const toolbar = props => (
     <header className="toolbar">
@@ -25,18 +24,19 @@ const toolbar = props => (
             {/* <div>
                 <ToggleButton />
             </div> */}
+            {/* <Router> */}
             <div className="toolbar-nav-items">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><NavLink to="/" exact>Home</NavLink></li>
                     <div>|</div>
-                    <li><a href="/about">About</a></li>
+                    <li><NavLink to="/about">About</NavLink></li>
                     <div>|</div>
-                    <li><a href="/portfolio">Portfolio</a></li>
+                    <li><NavLink to="/portfolio">Portfolio</NavLink></li>
                     <div>|</div>
-                    <li><a href="/services">Services</a></li>
+                    <li><NavLink to="/services">Services</NavLink></li>
                     <div>|</div>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
+                    <li><NavLink to="/contact">Contact</NavLink></li>
+                </ul>    
             </div>
         </nav>
     </header>

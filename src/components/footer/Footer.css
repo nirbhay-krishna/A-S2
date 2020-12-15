@@ -1,55 +1,56 @@
-.footer {
-    justify-content: center;
-    display: flex;
-    color: #6f6660;
-    /* padding: 25px 25px; */
-}
-
 #hr2 {
     margin-top: 55px;
     border-top: 1px solid black;
 }
 
-.footer ul {
-    text-decoration: none;
+.footer{
     display: flex;
-}
-
-.footer ul li {
-    font-size: 14px;
-    list-style: none;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    color: #6f6660;
 }
 
+.ft-1{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+}
+.ft-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px ;
+}
 .ft {
-    padding: 1px 0px;
-    margin: 0px 66px;
+    /* padding: 1px 0px; */
+    margin: 0px 20px;
 }
-
-.footer ul li img {
+.space{
+    margin: 0 5px;
+}
+.copy{
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin: 15px 0px;
 }
 
-.footer-logo {
-    margin-top: -4px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 12px;
-}
 
-@media (max-width:796px){
+
+
+@media (min-width:796px){
     .footer{
-        /* display: flex; */
-        /* flex-direction: column; */
-        justify-content: space-around;
-        width: 100vw;
+        
     }
-    .ft {
-        display: flex;
-        flex-direction: column;
-        /* padding: 1px 0px; */
-        margin: 0px 0px;
+    .ft-1{
+       
+       
     }
+    .ft-logo{
+       
+    }
+    .copy{
+    }
+    
 }
