@@ -3,6 +3,7 @@ import './toolbar.css';
 import logo from './logo.png';
 // import './sideDrawer/toggleButton';
 import ToggleButton from '../sideDrawer/ToggleButton';
+// import about from '../about/About';
 
 const toolbar = props => (
     <header className="toolbar">
@@ -18,7 +19,7 @@ const toolbar = props => (
         <hr style={{width:200}} className="hr1"/>
         <div className="logo-name"><a href="/">Architectural Studio</a></div>
         
-        <hr />
+        <hr style={{borderTop:"1.5px solid black"}}/>
         <nav className="toolbar-nav">
             
             {/* <div>
@@ -26,7 +27,7 @@ const toolbar = props => (
             </div> */}
             <div className="toolbar-nav-items">
                 <ul>
-                    <li><a href="/" exact>Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <div>|</div>
                     <li><a href="/about">About</a></li>
                     <div>|</div>

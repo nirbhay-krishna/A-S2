@@ -4,6 +4,8 @@ import Toolbar from './components/toolbar/toolbar';
 import SideDrawer from './components/sideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/home/Home';
+import Footer from './components/footer/Footer';
+// import About from './components/about/About';
 
 
 class App extends Component {
@@ -35,6 +37,9 @@ class App extends Component {
         {backdrop}
         <main style={{marginTop:'0px', position: "relative"}}>
           <Home />
+          <Footer />
+
+          
         </main>
       </div>
     );
