@@ -4,7 +4,7 @@ const About = props => {
     return(
         <div>
             <div>
-            <section class="about-container">
+            <section className="about-container">
 
                 <div className="about-heading-1">
                     About Our Studio
@@ -29,7 +29,7 @@ const About = props => {
                     <h2>Our Team</h2>
                 </div>
                 <div className="about-team-img">
-                    <div className="item">
+                    <div>
                         <div className="about-5 space"></div>
                         <div className="about-9 space">
                             <div className="name">Nirbhay Krishna</div>
@@ -38,16 +38,16 @@ const About = props => {
                         </div>
                     </div>
 
-                    <div className="item">
+                    <div >
                         <div className="about-6 space"></div>
                         <div className="about-10 space">
-                            <div class="name">Nirbhay Krishna</div>
-                            <div class="role">Residential Interior Designer</div>
+                            <div className="name">Nirbhay Krishna</div>
+                            <div className="role">Residential Interior Designer</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptatum.</p>
                         </div>
                     </div>
 
-                    <div className="item">
+                    <div>
                         <div className="about-7 space"></div>
                         <div className="about-11 space">
                             <div className="name">Nirbhay Krishna</div>
@@ -56,7 +56,7 @@ const About = props => {
                         </div>
                     </div>
 
-                    <div className="item">
+                    <div>
                         <div className="about-8 space"></div>
                         <div className="about-12 space">
                             <div className="name">Nirbhay Krishna</div>

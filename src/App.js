@@ -6,6 +6,9 @@ import SideDrawer from './components/sideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact'
+import Services from './components/services/Services';
 
 
 class App extends Component {
@@ -38,6 +41,9 @@ class App extends Component {
         <Switch>
           <Route component={Home} path='/' exact />
           <Route component={About} path='/about' />
+          <Route component={Portfolio} path='/portfolio' />
+          <Route component={Contact} path='/contact' />
+          <Route component={Services} path='/services' />
       </Switch>
       </BrowserRouter>
         {backdrop}
