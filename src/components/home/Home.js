@@ -12,7 +12,7 @@ const Home = props => {
                 <div className="box23-div">
                     <div id="box2">Minimal Design, Maximum Impact</div>
                     <div id="box3">
-                        <button>Book Online &gt; </button>
+                        <a href="/services">Book Online &gt; </a>
                     </div>
                 </div>    
                 <div className="box-45-div">
@@ -28,7 +28,7 @@ const Home = props => {
                     <p>The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value.  </p>
                     <div className="stage">
                         <hr className="hr-read"/>
-                        <a href="#about"> Read more &gt;&gt;</a>
+                        <a href="/about"> Read more &gt;&gt;</a>
                     </div>
                 </div>
                 <div id="box7"></div>

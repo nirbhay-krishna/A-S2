@@ -1,4 +1,3 @@
-// import './App.css';
 import { Component } from 'react';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Toolbar from './components/toolbar/toolbar';
@@ -27,7 +26,6 @@ class App extends Component {
   };
 
   render() {
-    // let sideDrawer;
     let backdrop;
 
     if (this.state.sideDrawerOpen) {

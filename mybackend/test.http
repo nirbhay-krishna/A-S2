@@ -1,0 +1,10 @@
+POST http://localhost:4000/app/contact
+Content-Type: application/json
+
+{
+    "name": "nimbu",
+    "phone": "1245789652",
+    "email": "nimbu@gmail.com",
+    "address": "ajmer",
+    "desc": "whatever"
+}

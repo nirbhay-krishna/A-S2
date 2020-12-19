@@ -44,12 +44,21 @@
     width: 496px;
     margin-right: 4px;
 }
-#box3 button{
+#box3 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
     font-size: 0.8rem;
     background: rgb(53, 47, 47);
     height: 50px;
     width: 160px;
+}
+#box3 a{
+    font-size: 0.8rem;
+    text-decoration: none;
 }
 
 #box4{
@@ -171,8 +180,7 @@
 
     }
 
-    #box3 button{
-        font-size: large;
+    #box3 {
         width: 100vw;
         margin-bottom: 4px;
 
